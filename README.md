@@ -18,7 +18,6 @@ Embedded fatigue-monitoring system for a table-tennis racket. STM32F7 firmware c
 - [AI 模型 / AI Model](#ai-模型--ai-model)
 - [建置與燒錄 / Build & Flash](#建置與燒錄--build--flash)
 - [專案目錄結構 / Project Structure](#專案目錄結構--project-structure)
-- [授權 / License](#授權--license)
 
 ---
 
