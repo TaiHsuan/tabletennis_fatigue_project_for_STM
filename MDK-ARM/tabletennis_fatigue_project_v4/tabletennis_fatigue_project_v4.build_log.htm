@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.42.0.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: USB LAB, USBLAB, LIC=VGXG8-37U0S-2Z5W4-FWZPH-66JJ2-TEQL7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.42.0.0
+Toolchain Path:  C:\Users\TaiTzu-Hsuan\AppData\Local\Keil_v5\ARM\ARMARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.42.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\tabletennis_fatigue_project\tabletennis_fatigue_project_v5\MDK-ARM\tabletennis_fatigue_project_v4.uvprojx
+Project File Date:  08/04/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Users\TaiTzu-Hsuan\AppData\Local\Keil_v5\ARM\ARMARM_Compiler_5.06u7\Bin'
+Rebuild target 'tabletennis_fatigue_project_v4'
+assembling startup_stm32f767xx.s...
+compiling network.c...
+compiling network_data.c...
+compiling network_data_params.c...
+compiling i2c.c...
+compiling stm32f7xx_hal_uart_ex.c...
+compiling stm32f7xx_hal_i2c_ex.c...
+compiling stm32f7xx_hal.c...
+compiling stm32f7xx_it.c...
+compiling stm32f7xx_hal_cortex.c...
+compiling stm32f7xx_hal_exti.c...
+compiling gpio.c...
+compiling stm32f7xx_hal_msp.c...
+compiling stm32f7xx_hal_gpio.c...
+compiling stm32f7xx_hal_rcc_ex.c...
+compiling stm32f7xx_hal_flash_ex.c...
+compiling usart.c...
+compiling stm32f7xx_hal_dma_ex.c...
+compiling stm32f7xx_hal_flash.c...
+compiling stm32f7xx_hal_pwr.c...
+compiling stm32f7xx_hal_dma.c...
+compiling main.c...
+../Core/Src/main.c(135): warning:  #1295-D: Deprecated declaration Apply_ETL - give arg types
+  void Apply_ETL();
+../Core/Src/main.c(226): warning:  #177-D: variable "result"  was declared but never referenced
+  	uint8_t result = 99, wAmI = 99;
+../Core/Src/main.c(226): warning:  #177-D: variable "wAmI"  was declared but never referenced
+  	uint8_t result = 99, wAmI = 99;
+../Core/Src/main.c(228): warning:  #177-D: variable "is_streaming"  was declared but never referenced
+    bool is_streaming = false;
+../Core/Src/main.c(236): warning:  #177-D: variable "is_collecting"  was declared but never referenced
+  	bool is_collecting = false;
+../Core/Src/main.c(640): warning:  #550-D: variable "gx"  was set but never used
+  	uint16_t gx, gy ,gz;
+../Core/Src/main.c(640): warning:  #550-D: variable "gy"  was set but never used
+  	uint16_t gx, gy ,gz;
+../Core/Src/main.c(640): warning:  #550-D: variable "gz"  was set but never used
+  	uint16_t gx, gy ,gz;
+../Core/Src/main.c(664): warning:  #550-D: variable "ax"  was set but never used
+  	uint16_t ax, ay ,az;
+../Core/Src/main.c(664): warning:  #550-D: variable "ay"  was set but never used
+  	uint16_t ax, ay ,az;
+../Core/Src/main.c(664): warning:  #550-D: variable "az"  was set but never used
+  	uint16_t ax, ay ,az;
+../Core/Src/main.c: 11 warnings, 0 errors
+compiling stm32f7xx_hal_pwr_ex.c...
+compiling app_x-cube-ai.c...
+compiling stm32f7xx_hal_uart.c...
+compiling stm32f7xx_hal_rcc.c...
+compiling stm32f7xx_hal_i2c.c...
+compiling system_stm32f7xx.c...
+linking...
+Program Size: Code=33292 RO-data=534928 RW-data=4188 ZI-data=173364  
+FromELF: creating hex file...
+"tabletennis_fatigue_project_v4\tabletennis_fatigue_project_v4.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F7xx_DFP.3.0.0.pack
+                Keil::STM32F7xx_DFP@3.0.0
+                STMicroelectronics STM32F7 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_tabletennis_fatigue_project_v4
+  C:/Users/TaiTzu-Hsuan/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>

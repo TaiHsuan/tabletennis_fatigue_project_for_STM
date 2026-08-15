@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Single Pin and No Pin Net Report                                 )
+(                                                                     )
+(    Drawing          : 263BN1-V174-0320.brd                          )
+(    Software Version : 17.4S027                                      )
+(    Date/Time        : Sat Mar 21 15:33:26 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Single Pin Nets (Total = 12) .... 
+
+  Net PA5_SPI1_SCK                        with Pin U8.H3  @ (4101.26 3008.74)
+  Net PA6_SPI1_SCK                        with Pin U8.J3  @ (4069.76 3008.74)
+  Net PA7_SPI1_MOSI                       with Pin U8.K3  @ (4038.27 3008.74)
+  Net PB12_SPI1_CS                        with Pin U8.K8  @ (4038.27 2851.26)
+  Net PC2_SPI2_MISO                       with Pin U8.E2  @ (4195.75 3040.24)
+  Net PC3_SPI2_MOSI                       with Pin U8.F3  @ (4164.25 3008.74)
+  Net PD12_CSN_24L01                      with Pin U8.K10  @ (4038.27 2788.27)
+  Net PD8_IRQ_24L01                       with Pin U8.K9  @ (4038.27 2819.76)
+  Net PB11_CE_24L01                       with Pin U8.K7  @ (4038.27 2882.76)
+  Net PB3_SYS_JTDO-SWO                    with Pin U8.A7  @ (4321.73 2882.76)
+  Net PA15_SYS_JTDI                       with Pin U8.A8  @ (4321.73 2851.26)
+  Net PB10_SPI2_SCK                       with Pin U8.J7  @ (4069.76 2882.76)
+
+
+ - To suppress report items add the OK_NET_ONE_PIN property to the net.

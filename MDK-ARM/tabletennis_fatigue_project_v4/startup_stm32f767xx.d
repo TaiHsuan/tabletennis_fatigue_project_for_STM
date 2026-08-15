@@ -1,0 +1,1 @@
+tabletennis_fatigue_project_v4\startup_stm32f767xx.o: startup_stm32f767xx.s
